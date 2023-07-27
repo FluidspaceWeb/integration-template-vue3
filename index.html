@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>My Integration | Fluidspace</title>
+		<script src="http://localhost:1822/js/IntegrationModule.js" type="text/javascript"></script>
+		<script src="http://localhost:1822/js/IntegrationAPI.js" type="text/javascript"></script>
+		<script src="http://localhost:1822/js/ModulePropsAPI.js" type="text/javascript"></script>
+		<script src="http://localhost:1822/js/Bus.js" type="text/javascript"></script>
+		<script id="config" type="application/json">
+			{
+				"serverUrl": "http://localhost:1822",
+				"module": {
+					"id": "2wroqKErOQtGY5NVjw14",
+					"namespace": "namespace",
+					"name": "modulename",
+					"displayName": "My Integration"
+				},
+				"autoSelectAccount": {
+					"enabled": false,
+					"id": "",
+					"delayMS": 500
+				}
+			}
+		</script>
+
+		<style>
+			body {
+				margin: 0;
+				padding: 0;
+				background-color: #333;
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+
+			.module {
+				height: 90vh;
+				width: 90%;
+				background-color: #fff;
+				border-radius: 7px;
+				padding: 1rem;
+				box-sizing: border-box;
+			}
+
+			.moduleElement {
+				display: block;
+				overflow: auto;
+				height: 100%;
+				width: 100%;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<script type="module" src="/src/main.js"></script>
+		<script src="./testbench.js" type="text/javascript"></script>
+	</body>
+
+</html>
