@@ -17,7 +17,7 @@ The final build is an IIFE with .js in *dist/js/* and all the static assets in *
 Due to the nature of current build process, the built (dist) files may not be directly servable (i.e. independent of Fluidspace Environment).
 </details>
 
-<!-- <br> Configuring & using template video guide: [YouTube](#) -->
+<br> Configuring & using template video guide: [YouTube](https://youtu.be/_AD2f0xOZEc)
 
 ### 🤔 What's different from App type? 
 
@@ -136,6 +136,11 @@ Example - Fluidspace Development Server
         "authGrantURL": string      // URL for initial auth_code exchange for refresh & access token
     }
     ```
+
+Learn adding test accounts for development purpose [here](docs/Integration.md#👤-adding-oauth2-account).
+
+Know about OAuth2 flow [here](docs/Integration.md#🛡-oauth2-flow)
+
 </details>
 
 ## 🟢 Development Setup
